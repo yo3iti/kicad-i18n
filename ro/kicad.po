@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "POT-Creation-Date: 2017-02-11 23:17+0200\n"
-"PO-Revision-Date: 2017-02-13 22:31+0200\n"
+"PO-Revision-Date: 2017-02-16 19:29+0200\n"
 "Last-Translator: YO3ITI <yo3iti@yo3iti.ro>\n"
 "Language-Team: KiCad team <jean-pierre.charras@inpg.fr>\n"
 "Language: ro\n"
@@ -981,67 +981,67 @@ msgstr "Mișcă placa în jos"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1188
 msgid "Home view"
-msgstr ""
+msgstr "Acasă"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1189
 msgid "Reset view"
-msgstr ""
+msgstr "Resetare vizualizare"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1191
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1195
 msgid "View Top"
-msgstr ""
+msgstr "Vedere de deasupra"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1192
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1196
 msgid "View Bot"
-msgstr ""
+msgstr "Vedere de dedesubt"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1193
 msgid "View Left"
-msgstr ""
+msgstr "Vedere din stânga"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1194
 msgid "View Right"
-msgstr ""
+msgstr "Vedere din dreapta"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1198
 msgid "Rotate 45 degrees over Z axis"
-msgstr ""
+msgstr "Rotește 45 grade în jurul axei Z"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1199
 msgid "Zoom in "
-msgstr ""
+msgstr "Măreste"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1201
 msgid "Toggle 3D models with type Through Hole"
-msgstr ""
+msgstr "Comutare modele 3D de tip inserție"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1202
 msgid "Toggle 3D models with type Surface Mount"
-msgstr ""
+msgstr "Comutare modele 3D de tip montare la suprafață"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1203
 msgid "Toggle 3D models with type Virtual"
-msgstr ""
+msgstr "Comutare modele 3D de tip Virtual"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1205
 msgid "Viewer 3D"
-msgstr ""
+msgstr "Vizualizator 3D"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:270 eeschema/edit_bitmap.cpp:103
 #: pagelayout_editor/pl_editor_frame.cpp:638
 msgid "Choose Image"
-msgstr ""
+msgstr "Alege imaginea"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:271 eeschema/edit_bitmap.cpp:104
 #: pagelayout_editor/pl_editor_frame.cpp:639
 msgid "Image Files "
-msgstr ""
+msgstr "Fișiere imagine"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:486
 msgid "Create a logo file"
-msgstr ""
+msgstr "Creează un fișier logo"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:505
 #: bitmap2component/bitmap2cmp_gui.cpp:543
@@ -1049,41 +1049,41 @@ msgstr ""
 #: bitmap2component/bitmap2cmp_gui.cpp:617
 #, c-format
 msgid "File '%s' could not be created."
-msgstr ""
+msgstr "Fișierul '%s' nu a putut fi creat."
 
 #: bitmap2component/bitmap2cmp_gui.cpp:523
 msgid "Create a Postscript file"
-msgstr ""
+msgstr "Creează un fișier Postscript"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:561
 msgid "Create a component library file for Eeschema"
-msgstr ""
+msgstr "Creează o bibliotecă de componente pentru Eeschema"
 
 #: bitmap2component/bitmap2cmp_gui.cpp:598
 msgid "Create a footprint file for Pcbnew"
-msgstr ""
+msgstr "Creează un fișier de amprente pentru Pcbnew"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:24
 msgid "Original Picture"
-msgstr ""
+msgstr "Imaginea originală"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:29
 msgid "Greyscale Picture"
-msgstr ""
+msgstr "Imagine tonuri de gri"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:32
 msgid "Black&&White Picture"
-msgstr ""
+msgstr "Imagine alb-negru"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:41
 msgid "Bitmap Info:"
-msgstr ""
+msgstr "Info bitmap:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:50
 #: bitmap2component/bitmap2cmp_gui_base.cpp:66
 #: common/dialogs/dialog_page_settings_base.cpp:32 include/wxunittext.h:50
 msgid "Size:"
-msgstr ""
+msgstr "Dimensiune:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:54
 #: bitmap2component/bitmap2cmp_gui_base.cpp:58
@@ -1091,11 +1091,11 @@ msgstr ""
 #: bitmap2component/bitmap2cmp_gui_base.cpp:74
 #: bitmap2component/bitmap2cmp_gui_base.cpp:86
 msgid "0000"
-msgstr ""
+msgstr "0000"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:62
 msgid "pixels"
-msgstr ""
+msgstr "pixeli"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:78 common/common.cpp:148
 #: common/common.cpp:206 common/dialogs/dialog_page_settings.cpp:471
@@ -1123,54 +1123,56 @@ msgstr ""
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:49
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:90
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:82
 msgid "BPP:"
-msgstr ""
+msgstr "BPP:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:90
 msgid "bits"
-msgstr ""
+msgstr "biți"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:97
 msgid "Resolution:"
-msgstr ""
+msgstr "Rezoluție:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:101
 #: bitmap2component/bitmap2cmp_gui_base.cpp:106
 msgid "300"
-msgstr ""
+msgstr "300"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:111
 msgid "DPI"
-msgstr ""
+msgstr "DPI"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:121
 msgid "Load Bitmap"
-msgstr ""
+msgstr "Încarcă un bitmap"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:124 eeschema/libeditframe.cpp:1177
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:125
 msgid ""
 "Create a library file for Eeschema\n"
 "This library contains only one component: logo"
 msgstr ""
+"Creează o bibliotecă de componente pentru Eeschema\n"
+"Această bibliotecă conține doar o componentă: logo"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Eeschema (.lib file)"
-msgstr ""
+msgstr "Eeschema (fișier .lib)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Pcbnew (.kicad_mod file)"
-msgstr ""
+msgstr "Pcbnew (fișier .kicad_mod)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Postscript (.ps file)"
-msgstr ""
+msgstr "Postscript (fișier .ps)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Logo for title block (.kicad_wks file)"
