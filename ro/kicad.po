@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "POT-Creation-Date: 2017-02-11 23:17+0200\n"
-"PO-Revision-Date: 2017-02-16 19:29+0200\n"
+"PO-Revision-Date: 2017-02-17 22:02+0200\n"
 "Last-Translator: YO3ITI <yo3iti@yo3iti.ro>\n"
 "Language-Team: KiCad team <jean-pierre.charras@inpg.fr>\n"
 "Language: ro\n"
@@ -20,11 +20,11 @@ msgstr "calea există dar nu este un fișier obișnuit"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:560
 msgid "failed to create 3D configuration directory"
-msgstr "nu s-a putut crea dosarul pentru configurare 3D"
+msgstr "nu s-a putut crea directorul pentru configurare 3D"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:562
 msgid "config directory"
-msgstr "dosarul pentru configurare"
+msgstr "directorul pentru configurare"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:470
 #: utils/kicad2step/pcb/3d_resolver.cpp:549
@@ -58,7 +58,7 @@ msgstr "Alias greșit (duplicat)"
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:632
 #: utils/kicad2step/pcb/3d_resolver.cpp:711
 msgid "3D configuration directory is unknown"
-msgstr "Dosarul pentru configurare 3D este necunoscut"
+msgstr "Directorul pentru configurare 3D este necunoscut"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:635
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:656
@@ -317,7 +317,7 @@ msgstr "fișierul există; nu se suprascrie"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:297
 msgid "specified path is a directory"
-msgstr "calea specificată este un dosar"
+msgstr "calea specificată este un director"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:361
 msgid "no such file"
@@ -333,7 +333,7 @@ msgstr "Creează straturi"
 
 #: 3d-viewer/3d_canvas/cinfo3d_visu.cpp:486
 msgid "Cannot determine the board outline."
-msgstr "Nu se poate determina forma plăcii."
+msgstr "Nu se poate determina conturul plăcii."
 
 #: 3d-viewer/3d_canvas/create_layer_items.cpp:1252
 msgid "Create tracks and vias"
@@ -1011,7 +1011,7 @@ msgstr "Rotește 45 grade în jurul axei Z"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1199
 msgid "Zoom in "
-msgstr "Măreste"
+msgstr "Mărește"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1201
 msgid "Toggle 3D models with type Through Hole"
@@ -1176,14 +1176,14 @@ msgstr "Postscript (fișier .ps)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Logo for title block (.kicad_wks file)"
-msgstr ""
+msgstr "Logo pentru titlu (fișier .kicad_wks)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:131
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:44
 #: pcbnew/dialogs/dialog_plot_base.cpp:251
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:187
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:135 common/eda_text.cpp:403
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
@@ -1200,12 +1200,12 @@ msgstr ""
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:71
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:99 pcbnew/muonde.cpp:859
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:135
 #: gerbview/class_gerber_file_image.cpp:342
 msgid "Negative"
-msgstr ""
+msgstr "Negativ"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:137
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:112
@@ -1218,39 +1218,41 @@ msgstr ""
 #: pcbnew/dialogs/dialog_plot_base.cpp:81
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:26
 msgid "Options"
-msgstr ""
+msgstr "Opțiuni"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:141
 msgid "Threshold Value:"
-msgstr ""
+msgstr "Valoare prag"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:146
 msgid ""
 "Adjust the level to convert the greyscale picture to a black and white "
 "picture."
 msgstr ""
+"Reglează nivelul pentru a converti imaginea în tonuri de gri la o imagine "
+"alb-negru."
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:150
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:363
 msgid "Front silk screen"
-msgstr ""
+msgstr "Serigrafie față"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:150
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:369
 msgid "Front solder mask"
-msgstr ""
+msgstr "Mască lipire față"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:150
 msgid "User layer Eco1"
-msgstr ""
+msgstr "Strat utilizator, Eco1"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:150
 msgid "User Layer Eco2"
-msgstr ""
+msgstr "Strat utilizator, Eco2"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:152
 msgid "Board Layer for Outline:"
-msgstr ""
+msgstr "Stratul pentru conturul plăcii:"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:154
 msgid ""
@@ -1258,46 +1260,51 @@ msgid ""
 "The 2 invisible fields reference and value are always placed on the silk "
 "screen layer."
 msgstr ""
+"Alegeți stratul plăcii pe care se va plasa conturul.\n"
+"Referința și valoarea celor două câmpuri invizibile sunt plasate pe stratul "
+"de serigrafie. "
 
 #: common/base_screen.cpp:188
 msgid "User Grid"
-msgstr ""
+msgstr "Caroiaj utilizator"
 
 #: common/base_screen.cpp:194
 #, c-format
 msgid "Grid: %.4f mm (%.2f mils)"
-msgstr ""
+msgstr "Caroiaj: %.4f mm (%.2f mil)"
 
 #: common/base_screen.cpp:197
 #, c-format
 msgid "Grid: %.2f mils (%.4f mm)"
-msgstr ""
+msgstr "Caroiaj: %.2f mil (%.4f mm)"
 
 #: common/base_units.cpp:160
 msgid " mils"
-msgstr ""
+msgstr "mil"
 
 #: common/base_units.cpp:160
 msgid " in"
-msgstr ""
+msgstr "in"
 
 #: common/base_units.cpp:162 common/base_units.cpp:249
 msgid " mm"
-msgstr ""
+msgstr "mm"
 
 #: common/base_units.cpp:245
 msgid " \""
-msgstr ""
+msgstr " \""
 
 #: common/base_units.cpp:253
 msgid " deg"
-msgstr ""
+msgstr "grd"
 
 #: common/basicframe.cpp:139
 msgid ""
 "The program cannot be closed\n"
 "A quasi-modal dialog window is currently open, please close it first."
 msgstr ""
+"Programul nu poate fi închis.\n"
+"Este deschisă o fereastră modală. Vă rugăm să o închideți."
 
 #: common/basicframe.cpp:459
 #, c-format
@@ -1307,36 +1314,42 @@ msgid ""
 " or\n"
 "'%s' could not be found."
 msgstr ""
+"Nu pot fi găsite \n"
+"fișierele html sau pdf\n"
+"'%s' sau\n"
+"'%s'."
 
 #: common/basicframe.cpp:476
 #, c-format
 msgid "Help file '%s' could not be found."
-msgstr ""
+msgstr "Nu poate fi găsit fișierul-ajutor ‘%s’."
 
 #: common/basicframe.cpp:509
 msgid ""
 "Could not launch the default browser. For information on how to help the "
 "KiCad project, visit "
 msgstr ""
+"Nu se poate porni browser-ul implicit. Despre cum puteți contribui la "
+"proiectul KiCad, vizitați "
 
 #: common/basicframe.cpp:511
 msgid "Get involved with KiCad"
-msgstr ""
+msgstr "Implicați-vă în KiCad"
 
 #: common/basicframe.cpp:543
 #, c-format
 msgid "You do not have write permissions to folder <%s>."
-msgstr ""
+msgstr "Nu aveți permisiuni de scriere în directorul <%s>."
 
 #: common/basicframe.cpp:548
 #, c-format
 msgid "You do not have write permissions to save file <%s> to folder <%s>."
-msgstr ""
+msgstr "Nu aveți permisiuni de salvare a fișierului <%s> în directorul <%s>."
 
 #: common/basicframe.cpp:553
 #, c-format
 msgid "You do not have write permissions to save file <%s>."
-msgstr ""
+msgstr "Nu aveți permisiuni de salvare a fișierului <%s>."
 
 #: common/basicframe.cpp:585
 #, c-format
@@ -1347,196 +1360,201 @@ msgid ""
 "it was not saved properly.  Do you wish to restore the last saved edits you "
 "made?"
 msgstr ""
+"Ei bine, acest lucru este jenant…\n"
+"Se pare că fișierul\n"
+"'%s'\n"
+"nu a fost salvat corespunzător la ultima editare. Doriți restaurarea "
+"ultimelor editări?"
 
 #: common/basicframe.cpp:613
 #, c-format
 msgid "Could not create backup file <%s>"
-msgstr ""
+msgstr "Nu se poate crea copia de rezervă <%s>"
 
 #: common/basicframe.cpp:621
 msgid "The auto save file could not be renamed to the board file name."
-msgstr ""
+msgstr "Fișierul auto-salvat nu poate fi numit cu denumirea plăcii."
 
 #: common/block_commande.cpp:68
 msgid "Block Move"
-msgstr ""
+msgstr "Mută gruparea"
 
 #: common/block_commande.cpp:72
 msgid "Block Drag"
-msgstr ""
+msgstr "Trage gruparea"
 
 #: common/block_commande.cpp:76
 msgid "Drag item"
-msgstr ""
+msgstr "Trage articolul"
 
 #: common/block_commande.cpp:80
 msgid "Block Copy"
-msgstr ""
+msgstr "Copiază gruparea"
 
 #: common/block_commande.cpp:84
 msgid "Block Delete"
-msgstr ""
+msgstr "Șterge gruparea"
 
 #: common/block_commande.cpp:88
 msgid "Block Save"
-msgstr ""
+msgstr "Salvează gruparea"
 
 #: common/block_commande.cpp:92
 msgid "Block Paste"
-msgstr ""
+msgstr "Alipește gruparea"
 
 #: common/block_commande.cpp:96
 msgid "Win Zoom"
-msgstr ""
+msgstr "Zoom fereastră"
 
 #: common/block_commande.cpp:100
 msgid "Block Rotate"
-msgstr ""
+msgstr "Rotește gruparea"
 
 #: common/block_commande.cpp:104
 msgid "Block Flip"
-msgstr ""
+msgstr "Întoarce gruparea"
 
 #: common/block_commande.cpp:109
 msgid "Block Mirror"
-msgstr ""
+msgstr "Oglindește gruparea"
 
 #: common/class_marker_base.cpp:203
 msgid "Marker Info"
-msgstr ""
+msgstr "Info marker"
 
 #: common/colors.cpp:39 eeschema/widgets/widget_eeschema_color_config.cpp:193
 msgid "Black"
-msgstr ""
+msgstr "Negru"
 
 #: common/colors.cpp:40
 msgid "Gray 1"
-msgstr ""
+msgstr "Gri 1"
 
 #: common/colors.cpp:41
 msgid "Gray 2"
-msgstr ""
+msgstr "Gri 2"
 
 #: common/colors.cpp:42
 msgid "Gray 3"
-msgstr ""
+msgstr "Gri 3"
 
 #: common/colors.cpp:43 eeschema/widgets/widget_eeschema_color_config.cpp:192
 msgid "White"
-msgstr ""
+msgstr "Alb"
 
 #: common/colors.cpp:44
 msgid "L.Yellow"
-msgstr ""
+msgstr "Galben pal"
 
 #: common/colors.cpp:45
 msgid "Blue 1"
-msgstr ""
+msgstr "Albastru 1"
 
 #: common/colors.cpp:46
 msgid "Green 1"
-msgstr ""
+msgstr "Verde 1"
 
 #: common/colors.cpp:47
 msgid "Cyan 1"
-msgstr ""
+msgstr "Cian 1"
 
 #: common/colors.cpp:48
 msgid "Red 1"
-msgstr ""
+msgstr "Roșu 1"
 
 #: common/colors.cpp:49
 msgid "Magenta 1"
-msgstr ""
+msgstr "Magenta 1"
 
 #: common/colors.cpp:50
 msgid "Brown 1"
-msgstr ""
+msgstr "Maro 1"
 
 #: common/colors.cpp:51
 msgid "Blue 2"
-msgstr ""
+msgstr "Albastru 2"
 
 #: common/colors.cpp:52
 msgid "Green 2"
-msgstr ""
+msgstr "Verde 2"
 
 #: common/colors.cpp:53
 msgid "Cyan 2"
-msgstr ""
+msgstr "Cian 2"
 
 #: common/colors.cpp:54
 msgid "Red 2"
-msgstr ""
+msgstr "Roșu 2"
 
 #: common/colors.cpp:55
 msgid "Magenta 2"
-msgstr ""
+msgstr "Magenta 2"
 
 #: common/colors.cpp:56
 msgid "Brown 2"
-msgstr ""
+msgstr "Maro 2"
 
 #: common/colors.cpp:57
 msgid "Blue 3"
-msgstr ""
+msgstr "Albastru 3"
 
 #: common/colors.cpp:58
 msgid "Green 3"
-msgstr ""
+msgstr "Verde 3"
 
 #: common/colors.cpp:59
 msgid "Cyan 3"
-msgstr ""
+msgstr "Cian 3"
 
 #: common/colors.cpp:60
 msgid "Red 3"
-msgstr ""
+msgstr "Roșu 3"
 
 #: common/colors.cpp:61
 msgid "Magenta 3"
-msgstr ""
+msgstr "Magenta 3"
 
 #: common/colors.cpp:62
 msgid "Yellow 3"
-msgstr ""
+msgstr "Galben 3"
 
 #: common/colors.cpp:63
 msgid "Blue 4"
-msgstr ""
+msgstr "Albastru 4"
 
 #: common/colors.cpp:64
 msgid "Green 4"
-msgstr ""
+msgstr "Verde 4"
 
 #: common/colors.cpp:65
 msgid "Cyan 4"
-msgstr ""
+msgstr "Cian 4"
 
 #: common/colors.cpp:66
 msgid "Red 4"
-msgstr ""
+msgstr "Roșu 4"
 
 #: common/colors.cpp:67
 msgid "Magenta 4"
-msgstr ""
+msgstr "Magenta 4"
 
 #: common/colors.cpp:68
 msgid "Yellow 4"
-msgstr ""
+msgstr "Galben 4"
 
 #: common/common.cpp:144
 msgid "\""
-msgstr ""
+msgstr "\""
 
 #: common/common.cpp:175 common/dialogs/dialog_page_settings.cpp:471
 #: pagelayout_editor/pl_editor_frame.cpp:466
 msgid "inches"
-msgstr ""
+msgstr "inci"
 
 #: common/common.cpp:179
 msgid "millimeters"
-msgstr ""
+msgstr "milimetri"
 
 #: common/common.cpp:183 eeschema/dialogs/dialog_edit_label_base.cpp:57
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:124
@@ -1549,134 +1567,136 @@ msgstr ""
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:49
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:72
 msgid "units"
-msgstr ""
+msgstr "unități"
 
 #: common/common.cpp:187
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:96
 msgid "degrees"
-msgstr ""
+msgstr "grade"
 
 #: common/common.cpp:202
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: common/common.cpp:213 pcbnew/dialogs/dialog_create_array_base.cpp:220
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:63
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:141
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:152
 msgid "deg"
-msgstr ""
+msgstr "grd"
 
 #: common/common.cpp:418
 #, c-format
 msgid "Cannot make path '%s' absolute with respect to '%s'."
-msgstr ""
+msgstr "Nu se poate crea o cale absolută '%s' în raport cu ‘%s’."
 
 #: common/common.cpp:436
 #, c-format
 msgid "Output directory '%s' created.\n"
-msgstr ""
+msgstr "A fost creat directorul de ieșire ‘%s’.\n"
 
 #: common/common.cpp:445
 #, c-format
 msgid "Cannot create output directory '%s'.\n"
-msgstr ""
+msgstr "Nu se poate crea directorul de ieșire ‘%s’.\n"
 
 #: common/confirm.cpp:74 common/pgm_base.cpp:896 eeschema/symbedit.cpp:103
 #: eeschema/widgets/widget_eeschema_color_config.cpp:278
 msgid "Warning"
-msgstr ""
+msgstr "Avertizare"
 
 #: common/confirm.cpp:79 kicad/prjconfig.cpp:140
 #: pcbnew/router/length_tuner_tool.cpp:146
 msgid "Error"
-msgstr ""
+msgstr "Eroare"
 
 #: common/confirm.cpp:93
 msgid "Info"
-msgstr ""
+msgstr "Informație"
 
 #: common/confirm.cpp:113
 msgid "Confirmation"
-msgstr ""
+msgstr "Confirmare"
 
 #: common/dialog_about/AboutDialog_main.cpp:133
 msgid ""
 "The KiCad EDA Suite is a set of open source applications for the creation of "
 "electronic schematics and to design printed circuit boards."
 msgstr ""
+"Colecția KiCad EDA este un set de aplicații open source pentru crearea "
+"schemelor electronice și proiectarea circuitelor imprimate."
 
 #: common/dialog_about/AboutDialog_main.cpp:141
 msgid "KiCad on the web"
-msgstr ""
+msgstr "KiCad pe internet"
 
 #: common/dialog_about/AboutDialog_main.cpp:148
 msgid "The official KiCad site"
-msgstr ""
+msgstr "Site-ul oficial KiCad."
 
 #: common/dialog_about/AboutDialog_main.cpp:152
 msgid "Developer's website on Launchpad"
-msgstr ""
+msgstr "Site-ul dezvoltatorilor de pe Launchpad."
 
 #: common/dialog_about/AboutDialog_main.cpp:157
 msgid "Our official Repository for component and footprint libraries"
-msgstr ""
+msgstr "Zona oficială de depozitare a bibliotecilor de componente și amprente."
 
 #: common/dialog_about/AboutDialog_main.cpp:162
 msgid "Footprint wizards info on our official repository "
-msgstr ""
+msgstr "Informații despre asistentul de amprente "
 
 #: common/dialog_about/AboutDialog_main.cpp:166
 msgid "Non official repositories"
-msgstr ""
+msgstr "Zone depozitare neoficiale"
 
 #: common/dialog_about/AboutDialog_main.cpp:171
 msgid "Additional component libraries repository (smisioto)"
-msgstr ""
+msgstr "Zone adiționale de depozitare pentru componente (smisioto)"
 
 #: common/dialog_about/AboutDialog_main.cpp:177
 msgid "Bug tracker"
-msgstr ""
+msgstr "Urmărire defecte"
 
 #: common/dialog_about/AboutDialog_main.cpp:184
 msgid "Report or examine bugs"
-msgstr ""
+msgstr "Raportează sau examinează erori"
 
 #: common/dialog_about/AboutDialog_main.cpp:189
 msgid "KiCad user group and community"
-msgstr ""
+msgstr "Grupuri de utilizatori și comunitatea KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:195
 msgid "KiCad user group"
-msgstr ""
+msgstr "Grupul utilizatorilor de KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:200
 msgid "KiCad forum"
-msgstr ""
+msgstr "Forumul KiCad"
 
 #: common/dialog_about/AboutDialog_main.cpp:213
 msgid "The complete KiCad EDA Suite is released under the"
-msgstr ""
+msgstr "Colecția completă KiCad EDA este oferită conform"
 
 #: common/dialog_about/AboutDialog_main.cpp:215
 msgid "GNU General Public License (GPL) version 3 or any later version"
-msgstr ""
+msgstr "GNU General Public License (GPL) versiunea 3 sau mai mare"
 
 #: common/dialog_about/AboutDialog_main.cpp:409
 msgid "Others"
-msgstr ""
+msgstr "Altele"
 
 #: common/dialog_about/AboutDialog_main.cpp:424
 msgid "Icons by"
-msgstr ""
+msgstr "Pictograme de"
 
 #: common/dialog_about/AboutDialog_main.cpp:439
 msgid "3D models by"
-msgstr ""
+msgstr "Modele 3D de"
 
 #: common/dialog_about/dialog_about.cpp:116
 msgid "Information"
-msgstr ""
+msgstr "Informații"
 
 #: common/dialog_about/dialog_about.cpp:119
 msgid "Developers"
